@@ -17,10 +17,10 @@ class ShoppingCategory {
         }
 
         if (userSelectedCategory == "#") {
-            // TODO 1. 장바구니 이동
+            val shoppingCart = ShoppingCart()
+            shoppingCart.showCartItems()
         } else {
             if (categories.contains(userSelectedCategory)) {
-                // TODO 2. 카테고리 상품 목록 보여주기
                 val shoppingProductList = ShoppingProductList()
                 shoppingProductList.showProducts(userSelectedCategory)
             } else {
