@@ -1,6 +1,7 @@
 package screen
 
 import extensions.getNotEmptyString
+import java.nio.file.attribute.UserDefinedFileAttributeView
 
 class ShoppingCategory: Screen() {
 
@@ -20,11 +21,16 @@ class ShoppingCategory: Screen() {
             shoppingCart.showCartItems()
         } else {
             if (categories.contains(userSelectedCategory)) {
-                val shoppingProductList = ShoppingProductList()
-                shoppingProductList.showProducts(userSelectedCategory)
+                val shoppingProductList = ShoppingProductList(userSelectedCategory)
+                shoppingProductList.showProducts()
             } else {
-
+                showErrorMessage(userSelectedCategory)
             }
         }
+    }
+
+    private fun showErrorMessage(userSelectedCategory: String) {
+        println("[$userSelectedCategory] : 존재하지 않는 카테고리입니다. 다시 입력해주세요.")
+        showCategories()
     }
 }
