@@ -1,0 +1,4 @@
+package screen
+
+class ShoppingProductList {
+}
