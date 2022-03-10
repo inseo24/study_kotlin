@@ -21,10 +21,10 @@ class ShoppingCategory {
         } else {
             if (categories.contains(userSelectedCategory)) {
                 // TODO 2. 카테고리 상품 목록 보여주기
-
+                val shoppingProductList = ShoppingProductList()
+                shoppingProductList.showProducts(userSelectedCategory)
             } else {
-                println("[${userSelectedCategory}] : 존재하지 않는 카테고리입니다. 다시 입력해주세요.")
-                showCategories()
+
             }
         }
     }
