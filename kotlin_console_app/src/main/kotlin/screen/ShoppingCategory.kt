@@ -1,6 +1,5 @@
 package screen
 
-import extensions.getNotEmptyInt
 import extensions.getNotEmptyString
 
 class ShoppingCategory {
