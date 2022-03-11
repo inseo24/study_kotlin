@@ -1,1 +1,0 @@
-/Users/seo/Desktop/seo/kotlin_study/kotlin_console_app/build/classes/kotlin/main/MainKt.class
