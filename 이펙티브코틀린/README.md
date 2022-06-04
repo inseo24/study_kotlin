@@ -9,4 +9,3 @@
 이번 장의 목적은 ‘오류가 덜 발생하는 코드를 만드는 것'에 있다.
 
 
-[아이템1 : 가변성을 제한하라](https://github.com/inseo24/study_kotlin/blob/main/이펙티브코틀린/1장.md)
