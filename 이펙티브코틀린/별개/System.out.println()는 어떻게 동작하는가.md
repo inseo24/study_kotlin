@@ -2,7 +2,7 @@
 
 ## 출처
 
-이펙티 코틀린 책에 작은 주석으로 달린 [링크](https://luckytoilet.wordpress.com/2010/05/21/how-system-out-println-really-works/)가 있었고 그걸 번역했다. 
+이펙티브 코틀린 책에 작은 주석으로 달린 [링크](https://luckytoilet.wordpress.com/2010/05/21/how-system-out-println-really-works/)가 있었고 그걸 번역했다. 
 
 나중에 다시 읽어보면 도움이 될 거 같다.
 
