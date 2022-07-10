@@ -60,3 +60,4 @@
     - numbers를 Object[]로 캐스팅해도 구조 내부에서 사용되고 있는 실질적인 타입이 바뀌는 것이 아니다. 여전히 Integer이다. 따라서 이 배열에 문자열을 할당하면 당연히 오류가 발생한다.
     - 이런 결함을 고치기 위해 코틀린에서는 Array를 invariant로 만들어서 Array<Int>를 Array<Any>로 변경할 수 없게 했다.
 - 레퍼런스
+    [블로그](https://leejaeho.dev/posts/kotlin-generic-variance/)
